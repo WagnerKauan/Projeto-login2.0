@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>  <!--width = <800 400-->
 <body>
     <main>
-        <div class="green">
-            <input type="button" value="Teste1" onclick="testando1()">
-        </div>
+        <div class="container">
+            
+            <section class="login">
+                <span class="text-login">Login</span>
 
-        <div class="contain" >
+                <div class="inputs">
+                    <form action="#" autocomplete="on" class="formulario">
+    
+                        <div>
+                            <label for="login"><i class="fas fa-envelope"></i></label>
+                            <input type="text" name="login" id="login" placeholder="E-mail">
+                        </div>
 
-        </div>
-        <div class="blue">
-            <input type="button" value="Teste2" onclick="testando2()">
+                        <div>
+                            <label for="senha"><i class="fas fa-lock"></i></label>
+                            <input type="password" name="senha" id="senha" placeholder="Senha">
+                        </div>
+
+                    </form>
+                    <a href="#" class="esqueceu-senha">Forgot password?</a>
+                </div>
+
+                <div class="container-entrar">
+                    <div><input type="button" value="Entrar" class="btn-entrar"></div>
+                    <div><p>Don't have an account?</p>
+                        <a href="#">Sigup now</a>
+                    </div>
+                </div>
+                </section>
+
+            <div class="hove"></div>
+            <section class="registrar"></section>
         </div>
     </main>
-    <script src="teste.js"></script>
 </body>
 </html>
