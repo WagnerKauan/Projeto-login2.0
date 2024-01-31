@@ -28,6 +28,7 @@ div.container{
     border: 1px solid red;
     width: 100%;
     max-width: 800px;
+    padding: 40px;
 }
 
 .login{
@@ -61,7 +62,7 @@ div.container{
     display: flex;
     flex-direction: column;
 }
-
+    
 .formulario{
     display: flex;
     flex-direction: column;
