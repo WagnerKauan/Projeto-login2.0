@@ -6,7 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>  <!--width = <800 400-->
+</head>  
 <body>
     <main>
         <div class="container">
@@ -17,14 +17,14 @@
                 <div class="inputs">
                     <form action="#" autocomplete="on" class="formulario">
     
-                        <div>
+                        <div class="input-login">
                             <label for="login"><i class="fas fa-envelope"></i></label>
-                            <input type="text" name="login" id="login" placeholder="E-mail">
+                            <input type="text" name="login" id="login" placeholder="Digite seu e-mail" autocomplete="email">
                         </div>
 
-                        <div>
+                        <div class="input-senha">
                             <label for="senha"><i class="fas fa-lock"></i></label>
-                            <input type="password" name="senha" id="senha" placeholder="Senha">
+                            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" autocomplete="current-password">
                         </div>
 
                     </form>
@@ -32,7 +32,10 @@
                 </div>
 
                 <div class="container-entrar">
-                    <div><input type="button" value="Entrar" class="btn-entrar"></div>
+                    <div>
+                        <input type="button" value="Entrar" class="btn-entrar">
+                    </div>
+                    
                     <div><p>Don't have an account?</p>
                         <a href="#">Sigup now</a>
                     </div>
