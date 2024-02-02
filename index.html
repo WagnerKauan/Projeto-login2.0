@@ -37,16 +37,52 @@
                     </div>
                     
                     <div class="chamada-registrar">
-                        <p>Ainda não tem sua conta? <a href="#">registrar</a></p>
+                        <p>Ainda não tem sua conta? <a href="#" onclick="registrar()" class="link-registrar">registrar</a></p>
                     </div>
                 </div>
                 </section>
 
             <div class="hove">
-
+                <span class="text-1">Cada novo amigo é uma<br> nova aventura</span>
+                <span class="text-2">Vamos nos conectar</span>
             </div>
-            <section class="registrar"></section>
+
+            <section class="registrar">
+                <span class="text-registrar">Sigup</span>   
+                
+                <div class="inputs">
+                    <form action="#" class="formulario">
+
+                        <div class="input-name">
+                            <label for="name"><i class="fas fa-user"></i></label>
+                            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="input-email">
+                            <label for="email"><i class="fas fa-envelope"></i></label>
+                            <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                        </div>
+
+                        <div class="input-senha">
+                            <label for="senha-register"><i class="fas fa-lock"></i></label>
+                            <input type="password" name="senha-register" id="senha-register" placeholder="Digite sua senha">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="container-registrar">
+                    <div class="btn-container">
+                        <input type="submit" value="Registrar" class="btn-registrar">
+                    </div>
+
+                    <div class="chamada-login">
+                        <p>Já tem uma conta? <a href="#" onclick="login()">entrar</a></p>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+    <script src="funcionalidades.js"></script>
 </body>
 </html>
