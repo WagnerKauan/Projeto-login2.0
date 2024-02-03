@@ -228,6 +228,13 @@ div.hove .text-2{
     font-size: 0.9rem;
 }
 
+#check{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
 
 @media screen and (max-width: 865px) {
     div.container{
@@ -237,6 +244,7 @@ div.hove .text-2{
     
     .login{
         width: 100%;
+        display: block;
     }
 
     .registrar{
@@ -244,6 +252,15 @@ div.hove .text-2{
     }
     
     div.hove{
+        display: none;  
+    }
+
+    #check:checked ~ .registrar{
+        display: block;
+        width: 100%;
+    }
+
+    #check:checked ~ .login{
         display: none;
     }
 }
